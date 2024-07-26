@@ -205,11 +205,13 @@ main{
     display: inline-block;
     text-decoration: none;
     color: #000;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 10px;
+    line-height: 26px;
 }
+
 .article-card-title:hover{
     color: #7296EC;
     opacity: 0.8;
@@ -235,8 +237,9 @@ main{
 }
 .article-card-footer {
     display: flex;
-    margin-top: 0;
-    margin-bottom: -10px;
+    align-items: center;
+    margin-bottom: -5px;
+
 }
 .article-card-source-icon {
     margin-right: 10px;
