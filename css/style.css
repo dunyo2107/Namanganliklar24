@@ -187,7 +187,7 @@ header{
 
 /* NEWS CARD */
 .top-news{
-
+    padding-bottom: 60px;
 }
 .news-grid{
     display: flex;
@@ -241,3 +241,43 @@ header{
     font-size: 12px;
 }
 
+/* NOTIFICATION SECTION */
+.notification-part{
+    padding-bottom: 60px;
+}
+.notification-wrap{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/img/Group\ 35\ 1.png);
+    width: 1050px;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notification-title{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0%;
+}
+.notification-btn{
+    font-family: "Rubik";
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 13px 30px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    background-color: #f78b3b;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.notification-btn:hover{
+    opacity: 0.8;
+}
+.notification-btn:active{
+    opacity: 0.6;
+}
