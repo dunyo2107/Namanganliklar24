@@ -117,16 +117,30 @@ body{
     padding: 13px 20px;
     text-decoration: none;
     border-radius: 13px;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
 }
 
 .button-primary{
     color: #fff;
     background-color: #7296EC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
 }
-.button-primary:hover{
-    opacity: 0.8;
+.button-orange {
+    background-color: #F78B3B;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
 }
-.button-primary:active{
+.button:hover{
+        opacity: 0.8;
+}
+.button:active{
     opacity: 0.6;
 }
 
@@ -241,46 +255,24 @@ header{
     font-size: 12px;
 }
 
-/* NOTIFICATION SECTION */
-.notification-part{
-    padding-bottom: 60px;
-}
-.notification-wrap{
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(/img/Group\ 35\ 1.png);
-    width: 1050px;
-    height: 100px;
-    padding-left: 30px;
-    padding-right: 60px;
+/* NOTIFICATION CTA */
+.notification-cta {
+    margin: 60px 70px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    background-color: #FFD78A;
+    padding: 24px 70px 24px 29px;
+    border-radius: 15px;
 }
-.notification-title{
-    font-family: "Rubik";
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0%;
-    margin: 0;
-    padding: 0;
-    
-}
-.notification-btn{
-    font-family: "Rubik";
+.notification-cta-text {
+    color: #000;
     font-size: 20px;
     font-weight: 500;
-    text-decoration: none;
-    padding: 13px 30px;
-    line-height: 24px;
+    line-height: 26px;
     letter-spacing: 0%;
-    background-color: #f78b3b;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
+    text-align: left;
 }
-.notification-btn:hover{
-    opacity: 0.8;
-}
-.notification-btn:active{
-    opacity: 0.6;
-}
+
+
+/* #FFD78A */
