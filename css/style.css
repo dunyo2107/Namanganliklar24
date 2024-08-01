@@ -378,11 +378,10 @@ header{
     text-decoration: none;
 }
 .sidebar-news-card-source-time {
+    display: flex;
     color: #5e5f61;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0%;
 }
 
 .sidebar-ad-img{
