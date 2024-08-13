@@ -166,7 +166,7 @@ body{
 }
 
 /* SITENAV */
-.sitenav {
+.sitenav:not(:last-child) {
     margin-bottom: 40px;
 }
 header{
@@ -553,4 +553,51 @@ header{
 }
 .site-footer-link:active{
     opacity: 0.6;
+}
+
+/* Contact page */
+.contact-page {
+    margin-bottom: 100px;
+    
+}
+.contact-page-heading{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.form-fieldsets-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-page-wrapper {
+    display: block;
+}
+.contact-page-wrapper:not(:last-child){
+    margin-bottom: 10px;
+}
+.contact-page-form {
+    display: flex;
+    flex-direction: column;
+    width: 696px;
+}
+.form-input-wrapper {
+    width: 100%;
+}
+.input-form {
+    padding: 18px 20px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.text-area {
+    min-height: 180px;
+    resize: vertical;
+    margin-bottom: 20px;
+}
+.contact-page-form-submit{
+    align-self: end;
 }
