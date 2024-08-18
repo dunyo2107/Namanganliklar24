@@ -1,19 +1,26 @@
+
+:root{
+    --accent-color: #7297EF;
+}
 /* Global css */
-*{
+html{
     box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
 }
 *:focus{
-    outline: 2px dotted #2959CE;
+    outline: 2px dotted var(--accent-color);
     outline-offset: 3px;
 }
 a:hover{
     transition: .3s ease color,
     .3s ease background-color,
     .3s ease opacity;
-}
-html{
-    height: 100%;
-    scroll-behavior: smooth;
 }
 body{
     display: flex;
@@ -127,7 +134,7 @@ body{
 
 .button-primary{
     color: #fff;
-    background-color: #7296EC;
+    background-color: var(--accent-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -198,10 +205,10 @@ header{
     text-decoration: none;
 }
 .sitenav-link.active{
-    color: #7296EC;
+    color: var(--accent-color);
 }
 .sitenav-link:hover{
-    color: #7296EC;
+    color: var(--accent-color);
     opacity: 0.8;
 }
 .sitenav-link:active{
@@ -249,7 +256,7 @@ header{
     text-decoration: none;
 }
 .news-grid-link:hover{
-    color: #7296EC;
+    color: var(--accent-color);
     opacity: 0.8;
 }
 .news-grid-link:active{
@@ -407,7 +414,7 @@ header{
     text-decoration: none;
 }
 .sidebar-news-card-link:hover{
-    color: #7297EF;
+    color: var(--accent-color);
     opacity: 0.8;
 }
 .sidebar-news-card-link:active{
@@ -436,7 +443,7 @@ header{
 
 /* Footer section */
 .site-footer {
-    background-color: #7297EF;
+    background-color: var(--accent-color);
     color: #fff;
     padding: 40px 0;
 }
@@ -541,7 +548,7 @@ header{
 }
 .site-footer-link:hover{
     background-color: #fff;
-    color: #7296EC;
+    color: var(--accent-color);
     opacity: 0.8;
     border-radius: 3px;
 }
